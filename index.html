@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 👇 修改浏览器标签页标题 -->
+    <title>AirLink · 信息安全作品赛展示</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 字体可选，不用改动 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ==================== 导航栏 ==================== -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- 👇 修改左上角项目名 -->
+            <a href="#" class="nav-logo">
+                <span class="shield-icon">🛡️</span> AirLink
+            </a>
+            <ul class="nav-links">
+                <li><a href="#overview">项目概述</a></li>
+                <li><a href="#features">核心创新</a></li>
+                <li><a href="#architecture">技术架构</a></li>
+                <li><a href="#team">团队成员</a></li>
+                <li><a href="#links">资源链接</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== Hero 头部 ==================== -->
+    <header class="hero section" id="home">
+        <div class="container">
+            <!-- 👇 修改赛事名称/年份 -->
+            <span class="hero-badge">🏆 信息安全作品赛 · 2026</span>
+            <!-- 👇 修改主标题（项目全称） -->
+            <h1>AirLink：面向无人机集群的高效鲁棒安全组网系统</h1>
+            <!-- 👇 修改副标题/关键词 -->
+            <p class="tagline">
+                密码学算法 &nbsp;|&nbsp; 优化理论 &nbsp;|&nbsp; 人工智能 &nbsp;|&nbsp; 动态组网安全
+            </p>
+            <div class="hero-cta">
+                <a href="#overview" class="btn btn-primary">📖 了解项目</a>
+                <!-- 👇 修改 GitHub 仓库链接 -->
+                <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener" class="btn btn-outline">⭐ GitHub 仓库</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== 项目概述 ==================== -->
+    <section class="section" id="overview">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> 项目概述</h2>
+            <p class="section-subtitle">—— 我们要解决什么问题？</p>
+            <div class="card" style="max-width:900px;">
+                <!-- 👇 修改项目简介正文 -->
+                <p style="font-size:1rem; line-height:1.9;">
+                    <strong>AirLink</strong> 是一套面向无人机集群的高效鲁棒安全组网系统，
+                    结合<strong>密码学算法</strong>、<strong>优化理论</strong>和<strong>人工智能技术</strong>，
+                    在传统安全组网方案的基础上增加对无人机动态组网场景的适应性，
+                    实现高效、鲁棒、安全的组网通信。系统包含三大创新模块，
+                    分别针对接入认证、群组密钥协商和密钥自愈恢复提出了全新解决方案。
+                </p>
+                <!-- 👇 可选：修改终端风格展示的关键数据 -->
+                <div class="terminal-block" style="margin-top:18px;">
+                    <div class="terminal-dots">
+                        <span class="red"></span><span class="yellow"></span><span class="green"></span>
+                    </div>
+                    <div class="line"><span class="prompt-sym">airlink ~ $</span> <span>./system_status</span></div>
+                    <div class="line" style="margin-top:6px;"><span class="output">✓ 接入认证容错率:</span> 支持 30% 非法请求</div>
+                    <div class="line"><span class="output">✓ 密钥协商成功率:</span> >99% (丢包率 20% 时)</div>
+                    <div class="line"><span class="output">✓ 密钥恢复时间:</span> < 2s</div>
+                    <div class="line"><span class="output">✓ 共识算法:</span> 轻量高效私有区块链</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 核心创新（三大模块） ==================== -->
+    <section class="section" id="features">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> 核心创新</h2>
+            <p class="section-subtitle">—— 三大模块，解决动态组网关键难题</p>
+            <div class="card-grid">
+                <!-- 👇 创新点 1 -->
+                <div class="card">
+                    <span class="card-icon">🛡️</span>
+                    <h3>非法请求容错的批量接入认证</h3>
+                    <p>设计自适应权重函数与强化学习驱动的分组认证策略，在存在大量非法请求时仍能高效完成批量接入认证。</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">强化学习</span>
+                        <span class="tech-tag">非法请求估计</span>
+                        <span class="tech-tag">批量认证</span>
+                    </div>
+                </div>
+                <!-- 👇 创新点 2 -->
+                <div class="card">
+                    <span class="card-icon">🔐</span>
+                    <h3>消息丢失容忍的群组密钥协商</h3>
+                    <p>改进二元多项式秘密共享，并结合 CNN 模型动态调整阈值，确保链路不稳时密钥协商依然可靠。</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">秘密共享</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">阈值自适应</span>
+                    </div>
+                </div>
+                <!-- 👇 创新点 3 -->
+                <div class="card">
+                    <span class="card-icon">🔄</span>
+                    <h3>节点协同互愈的群组密钥恢复</h3>
+                    <p>利用布谷鸟过滤器与私有区块链实现密钥安全存储，无人机离线后可通过邻居协助快速恢复群组密钥。</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">布谷鸟过滤器</span>
+                        <span class="tech-tag">私有区块链</span>
+                        <span class="tech-tag">邻居互愈</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 技术架构 ==================== -->
+    <section class="section" id="architecture">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> 技术架构</h2>
+            <p class="section-subtitle">—— 分层设计，兼顾效率与安全</p>
+            <!-- 👇 可替换为真实架构图，修改 src 属性即可 -->
+            <div class="arch-diagram" title="点击可放大架构图">
+                <span class="placeholder-icon">🗺️</span>
+                <span>【 系统架构图占位区域 】</span>
+                <span class="hint">
+                    接入层 → 安全协商层 → 密钥管理层 → 应用层<br>
+                    （替换为 <img src="arch.png" alt="架构图"> 即可展示真实架构）
+                </span>
+            </div>
+            <p style="text-align:center; margin-top:14px; color:var(--text-secondary); font-size:0.85rem;">
+                💡 提示：将此区域替换为 <code>&lt;img src="arch.png" alt="架构图"&gt;</code> 即可展示真实架构图。
+            </p>
+        </div>
+    </section>
+
+    <!-- ==================== 团队成员 ==================== -->
+    <section class="section" id="team">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> 团队成员</h2>
+            <p class="section-subtitle">—— 一起攻克动态组网难题</p>
+            <div class="team-grid">
+                <!-- 👇 修改团队成员信息：头像字母、姓名、角色、简介 -->
+                <div class="team-card">
+                    <div class="team-avatar">A</div>
+                    <h4>同学 A</h4>
+                    <span class="role">队长 / 系统设计</span>
+                    <p style="font-size:0.8rem;color:var(--text-secondary);margin-top:6px;">负责整体架构与认证模块</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">B</div>
+                    <h4>同学 B</h4>
+                    <span class="role">算法研发</span>
+                    <p style="font-size:0.8rem;color:var(--text-secondary);margin-top:6px;">密钥协商与机器学习模型</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">C</div>
+                    <h4>同学 C</h4>
+                    <span class="role">区块链与安全</span>
+                    <p style="font-size:0.8rem;color:var(--text-secondary);margin-top:6px;">私有链与密钥恢复协议</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">D</div>
+                    <h4>同学 D</h4>
+                    <span class="role">前端与可视化</span>
+                    <p style="font-size:0.8rem;color:var(--text-secondary);margin-top:6px;">演示系统与数据展示</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 资源链接 ==================== -->
+    <section class="section" id="links">
+        <div class="container">
+            <h2 class="section-title"><span class="prompt">$</span> 资源链接</h2>
+            <p class="section-subtitle">—— 代码、文档、演示视频</p>
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+                <!-- 👇 修改链接地址 -->
+                <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener" style="text-decoration:none; color:inherit;">
+                    <div class="card" style="text-align:center;">
+                        <span style="font-size:2.5rem;">📂</span>
+                        <h3>源代码仓库</h3>
+                        <p style="font-size:0.85rem;">GitHub 完整源码</p>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none; color:inherit;">
+                    <div class="card" style="text-align:center;">
+                        <span style="font-size:2.5rem;">📄</span>
+                        <h3>技术文档</h3>
+                        <p style="font-size:0.85rem;">设计报告与接口说明</p>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none; color:inherit;">
+                    <div class="card" style="text-align:center;">
+                        <span style="font-size:2.5rem;">🎥</span>
+                        <h3>演示视频</h3>
+                        <p style="font-size:0.85rem;">B站 / 网盘链接</p>
+                    </div>
+                </a>
+                <a href="#" style="text-decoration:none; color:inherit;">
+                    <div class="card" style="text-align:center;">
+                        <span style="font-size:2.5rem;">📥</span>
+                        <h3>作品压缩包</h3>
+                        <p style="font-size:0.85rem;">提交用完整材料</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== 页脚 ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <!-- 👇 修改团队名和年份 -->
+            <p>
+                © 2026 <strong>AirLink Team</strong> &nbsp;|&nbsp;
+                信息安全作品赛参赛项目 &nbsp;|&nbsp;
+                Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>
+            </p>
+            <p style="margin-top:6px; font-size:0.78rem; opacity:0.6;">
+                此页面为静态展示页 · 最后更新：2026年7月
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
